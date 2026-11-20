@@ -1,0 +1,30 @@
+# Dependencies and generated assets
+**/node_modules/
+**/vendor/
+/frontend/dist/
+/backend/public/build/
+/backend/public/hot
+/backend/public/build.zip
+
+# Local configuration and credentials
+**/.env
+**/.env.*
+!**/.env.example
+/frontend/data.txt
+
+# Local databases, logs, caches, and uploaded files
+/backend/database/*.sqlite*
+/backend/storage/app/public/programs/
+/backend/storage/framework/cache/data/*
+/backend/storage/framework/sessions/*
+/backend/storage/framework/views/*
+/backend/storage/logs/*
+/backend/bootstrap/cache/*.php
+
+# Packaged dependencies and duplicate source archives
+/backend/vendor.zip
+/backend/resources.zip
+
+# OS files
+.DS_Store
+Thumbs.db
