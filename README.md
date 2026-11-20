@@ -77,6 +77,8 @@ npm run build
 npm run lint
 ```
 
+The production build succeeds. The existing frontend currently reports ESLint errors and warnings, so lint cleanup remains outstanding.
+
 ## Quick start: Laravel backend
 
 ```bash
